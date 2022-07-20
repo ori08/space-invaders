@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+td {
+  background-color: rgb(46, 78, 223);
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  opacity: 100%;
+}
+
+table {}
+
+/* td span {
+  opacity: 0%;
+
+} */
+
+.opacity {
+  opacity: 100%;
+}
+
+.gameBoard {
+  display: block;
+
+  display: block;
+  -webkit-border-horizontal-spacing: 0px;
+  -webkit-border-vertical-spacing: 0px;
+  margin: 0 auto;
+}
+
+/* .cell {
+  opacity: 0%;
+} */
+
+img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  ;
+}
+
+
+.gameOverModal {
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+.winModal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+}
